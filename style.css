@@ -1,0 +1,49 @@
+body {
+  background-color: antiquewhite;
+}
+header .background {
+  border: 10px !important;
+  background-color: antiquewhite !important;
+  opacity: 0, 5 !important;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+header .background::before {
+  background-color: rgba(58, 41, 41, 0.9);
+}
+header .background h1 {
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#logo {
+  width: 300px;
+  height: 200px;
+  margin-top: 200px;
+}
+.urun-png img {
+  height: 100px;
+  width: 150px;
+  border-radius: 25px;
+}
+.urun-description h2 {
+  color: green;
+}
+.urun-price {
+  font-size: 40px;
+  color: green;
+}
+.urun-price div {
+  font-size: 30px;
+  color: goldenrod;
+}
+.urun {
+  margin-top: 25px;
+}
